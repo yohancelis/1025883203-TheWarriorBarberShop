@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.formRegUsu {
+    width: 800px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.btnFunciones {
+    color: white !important;
+    width: 27px;
+    height: 27px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.btnFunciones:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btnFunciones:active {
+    color: rgba(0, 0, 0, 1);
+}
+
+.cardHeadCol {
+    background-image: linear-gradient(to top right, rgb(120, 0, 0), rgb(180, 0, 0));
+}
+
+.btnGreen,
+.btnOrange,
+.btnRed {
+    transition: 0.2s;
+    background-image: linear-gradient(to top right, rgb(0, 120, 0), rgb(0, 180, 0));
+    font-weight: 500;
+}
+
+.btnGreen:hover,
+.btnOrange:hover,
+.btnRed:hover {
+    background-image: linear-gradient(to top right, rgb(0, 140, 0), rgb(0, 200, 0));
+}
+
+.btnGreen:active,
+.btnOrange:active,
+.btnRed:active {
+    background-image: linear-gradient(to top right, rgb(0, 120, 0), rgb(0, 180, 0));
+    transform: scale(1);
+}
+
+.btnOrange {
+    background-image: linear-gradient(to top right, rgb(255, 100, 0), rgb(255, 140, 0));
+}
+
+.btnOrange:hover {
+    background-image: linear-gradient(to top right, rgb(255, 120, 0), rgb(255, 160, 0));
+}
+
+.btnOrange:active {
+    background-image: linear-gradient(to top right, rgb(255, 100, 0), rgb(255, 140, 0));
+}
+
+.btnRed {
+    background-image: linear-gradient(to top right, rgb(140, 0, 0), rgb(200, 0, 0));
+}
+
+.btnRed:hover {
+    background-image: linear-gradient(to top right, rgb(160, 0, 0), rgb(220, 0, 0));
+}
+
+.btnRed:active {
+    background-image: linear-gradient(to top right, rgb(120, 0, 0), rgb(180, 0, 0));
+}
